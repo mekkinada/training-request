@@ -9,7 +9,7 @@ const passport = require("passport");
 const app = express();
 
 const PORT = 4000;
-const DB_NAME = "JobsPlanet"
+const DB_NAME = "testDB"
 
 // Passport middleware
 app.use(passport.initialize());
